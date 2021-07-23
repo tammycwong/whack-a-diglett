@@ -1,8 +1,10 @@
+body {
+    text-align: center;
+}
 .square {
-    width:200px;
+    width: 200px;
     height: 200px;
-    border-style: solid;
-    border-color: black;
+    /* border: solid 1px black; */
 }
 .grid {
     display: flex;
@@ -11,6 +13,8 @@
     align-content: center;
     width: 618px;
     height: 618px;
+    margin: auto;
+    background-image: url(hammer.png);
 }
 h2 {
     font-weight: normal;
@@ -19,3 +23,9 @@ h2 {
     background-image: url(diglett.png);
     background-size: cover;
 }
+/* .square {
+    background-image: url(hole.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-position: fixed;   
+} */
