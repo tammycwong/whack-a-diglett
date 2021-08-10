@@ -4,7 +4,7 @@ body {
 .square {
     width: 200px;
     height: 200px;
-    /* border: solid 1px black; */
+    /* border: solid 1px lightgray; */
 }
 .grid {
     display: flex;
@@ -14,18 +14,24 @@ body {
     width: 618px;
     height: 618px;
     margin: auto;
-    background-image: url(hammer.png);
+    padding: 0;
 }
 h2 {
     font-weight: normal;
+    display: inline-block;
+}
+p {
+    display: inline-block;
 }
 .mole {
     background-image: url(diglett.png);
     background-size: cover;
-}
-/* .square {
-    background-image: url(hole.png);
-    background-position: bottom;
     background-repeat: no-repeat;
-    background-position: fixed;   
-} */
+    background-position: absolute;
+    z-index: 18;
+}
+.square {
+    background-image: url(hole.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
