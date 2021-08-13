@@ -7,7 +7,7 @@ body {
     background-image: url(hole.png);
     background-position: center bottom;
     background-repeat: no-repeat;
-    border: solid 1px lightgray;
+    /* border: solid 1px lightgray; */
 }
 .grid {
     display: flex;
