@@ -4,7 +4,10 @@ body {
 .square {
     width: 200px;
     height: 200px;
-    /* border: solid 1px lightgray; */
+    background-image: url(hole.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    border: solid 1px lightgray;
 }
 .grid {
     display: flex;
@@ -30,8 +33,8 @@ p {
     background-position: absolute;
     z-index: 18;
 }
-.square {
+/* .square {
     background-image: url(hole.png);
     background-position: center bottom;
     background-repeat: no-repeat;
-}
+} */
